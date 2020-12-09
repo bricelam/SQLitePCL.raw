@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30803.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLitePCLRaw.core", "SQLitePCLRaw.core\SQLitePCLRaw.core.csproj", "{667F8007-3A58-421C-8779-23B7020492FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2DB0989F-DF4F-4039-9A7F-B1BEBA88304E}"
+	ProjectSection(SolutionItems) = preProject
+		providers\provider.tt = providers\provider.tt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLitePCLRaw.provider.e_sqlite3", "SQLitePCLRaw.provider.e_sqlite3.most\SQLitePCLRaw.provider.e_sqlite3.csproj", "{BF23718C-4295-4E88-836C-CFA8105F0260}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{667F8007-3A58-421C-8779-23B7020492FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667F8007-3A58-421C-8779-23B7020492FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667F8007-3A58-421C-8779-23B7020492FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667F8007-3A58-421C-8779-23B7020492FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF23718C-4295-4E88-836C-CFA8105F0260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF23718C-4295-4E88-836C-CFA8105F0260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF23718C-4295-4E88-836C-CFA8105F0260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF23718C-4295-4E88-836C-CFA8105F0260}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC5706A3-4430-4ACB-A476-1CC966EA67BC}
+	EndGlobalSection
+EndGlobal

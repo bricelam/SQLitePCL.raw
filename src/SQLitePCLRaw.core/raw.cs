@@ -1329,6 +1329,8 @@ namespace SQLitePCL
         {
             return Provider.sqlite3_win32_set_directory(typ, path.to_utf8z());
         }
+
+        static public int sqlite3_create_module(sqlite3 db, string name, sqlite3_module p, object clientData)
     }
 }
 
